@@ -13,15 +13,15 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
 				<div className="tabs">
 					<button onClick={() => setTab(1)}>
 						<Image />
-						Image Preview
+						Preview
 					</button>
 					<button onClick={() => setTab(2)}>
 						<Eye />
-						Live Demo
+						Demo
 					</button>
 					<button onClick={() => setTab(3)}>
 						<Code />
-						Source Code
+						Code
 					</button>
 				</div>
 			</div>

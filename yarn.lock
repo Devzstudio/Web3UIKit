@@ -2678,7 +2678,7 @@ progress@^2.0.0:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-prop-types@^15.5.8, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -2789,6 +2789,13 @@ react-feather@^2.0.9:
   integrity sha512-yMfCGRkZdXwIs23Zw/zIWCJO3m3tlaUvtHiXlW+3FH7cIT6fiK1iJ7RJWugXq7Fso8ZaQyUm92/GOOHXvkiVUw==
   dependencies:
     prop-types "^15.7.2"
+
+react-github-button@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/react-github-button/-/react-github-button-0.1.11.tgz#fc61e1f1e1371169d3618c1ba37306ba04081e56"
+  integrity sha1-/GHh8eE3EWnTYYwbo3MGugQIHlY=
+  dependencies:
+    prop-types "^15.5.10"
 
 react-hot-toast@^2.1.1:
   version "2.1.1"

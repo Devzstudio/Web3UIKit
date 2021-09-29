@@ -51,10 +51,7 @@ const ModalConent = styled.div`
 `;
 
 const ChooseAssets = styled.button`
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem;
 	background-color: #3b82f6;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -135,6 +132,10 @@ const AssetSearch = styled.input`
 const AssetWrapper = styled.div`
 	height: 40vh;
 	overflow-y: scroll;
+
+	@media only screen and (max-width: 600px) {
+		height: 50vh;
+	}
 `;
 
 const Assets = [

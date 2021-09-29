@@ -51,10 +51,7 @@ const ModalConent = styled.div`
 `;
 
 const ChooseAssets = styled.button`
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem;
 	background-color: #000;
 	border-radius: 0.5rem;
 	font-size: 1rem;
@@ -161,6 +158,10 @@ const AssetWrapper = styled.div`
 	height: 40vh;
 	overflow-y: scroll;
 	border-top: 1px solid #333;
+
+	@media only screen and (max-width: 600px) {
+		height: 50vh;
+	}
 `;
 
 const CommonBases = styled.div`

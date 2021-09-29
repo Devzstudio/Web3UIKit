@@ -49,10 +49,7 @@ const ModalConent = styled.div`
 `;
 
 const ConnectButton = styled.button`
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem;
 	background-color: #191b1f;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -134,6 +131,10 @@ const WalletsWrapper = styled.div`
 	height: 40vh;
 	overflow-y: scroll;
 	padding: 0 1rem;
+
+	@media only screen and (max-width: 600px) {
+		height: 50vh;
+	}
 `;
 
 const WalletSearchWrapper = styled.div`

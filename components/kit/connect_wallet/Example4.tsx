@@ -50,10 +50,7 @@ const ModalConent = styled.div`
 `;
 
 const ConnectButton = styled.button`
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem;
 	background-color: #3b82f6;
 	font-size: 1rem;
 	line-height: 1.5rem;
