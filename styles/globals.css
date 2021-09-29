@@ -156,6 +156,39 @@ header {
 	line-height: 1.25rem;
 }
 
+.code_preview > div {
+	background: #efefef;
+	border: 1px solid #ddd;
+	border-radius: 0.25rem;
+}
+
+.code_copy_btn {
+	padding: 0.5rem;
+	background-color: #f3f4f6;
+	color: #6b7280;
+	border-radius: 0.25rem;
+	border: 1px solid #e5e7eb;
+	margin-right: 0.25rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.code_copy_btn svg {
+	width: 16px;
+	height: 16px;
+	margin-right: 0.25rem;
+}
+
+.code_copy_btn:hover {
+	cursor: pointer;
+	border-color: #374151;
+	color: #374151;
+}
+.code_copy_btn:hover svg {
+	color: #374151;
+}
+
 footer {
 	padding: 1rem;
 	background: #fff;
