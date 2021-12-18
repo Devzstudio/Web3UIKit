@@ -157,9 +157,11 @@ const WalletSearch = styled.input`
 	width: 100%;
 	font-size: 1rem;
 	background-color: #2c2f36;
+	color: #777;
 	border: 1px solid #40444f;
 
 	&:focus {
+		color: #333;
 		background: #fff;
 	}
 `;
